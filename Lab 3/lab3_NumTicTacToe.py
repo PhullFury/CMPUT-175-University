@@ -89,15 +89,14 @@ class NumTicTacToe:
         Inputs: none
         Returns: True if the board has no empty squares (full); False otherwise
         """
-        Sum = 0
-        #Gets the sum of all numbers in the board
-        for i in self.board:
-            Sum += sum(i)
-        #since all the numbers can only appear once the board, the sum of the all the numbers on the board will be 45
-        if (Sum == 45):
-            return True
-        else:
-            return False
+        BoardFull = True
+        # loops every square in the board and makes BoardFull false if there is a zero in any square
+        for m in self.board:
+            for n in m:
+                if (n == 0):
+                    BoardFull = False
+
+        return BoardFull
 
     def isWinner(self):
         """
@@ -170,6 +169,7 @@ if __name__ == "__main__":
             # checks if the game tied
             if (GameBoard.boardFull()):
                 print("\nThe board is full. It's a tie!")
+                break
             # this exists so player 2 doesn't get asked for input after losing
             if (not SomeWin):
                 # same as player 1 but for the player 2
