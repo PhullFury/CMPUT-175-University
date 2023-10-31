@@ -257,7 +257,7 @@ def main():
 
     # 7. To Do: Uncomment print statements, one at a time
     # Can we just access private capacity attribute directly outside of Class definition?
-    #print(bq.capacity)
+    print(bq.capacity)
     #print(bq.__capacity)
 
     
