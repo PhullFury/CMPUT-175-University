@@ -1,0 +1,155 @@
+Sample Output
+Here is some sample output from console_wordle.py:
+How many letters would you like to play?5
+Guess a word: noise
+Guess:     NOISE
+Correct:   _____
+Wrong:     EINOS
+Possible:  AAAAA
+Possible:  BBBBB
+Possible:  CCCCC
+Possible:  DDDDD
+Possible:  FFFFF
+Possible:  GGGGG
+Possible:  HHHHH
+Possible:  JJJJJ
+Possible:  KKKKK
+Possible:  LLLLL
+Possible:  MMMMM
+Possible:  PPPPP
+Possible:  QQQQQ
+Possible:  RRRRR
+Possible:  TTTTT
+Possible:  UUUUU
+Possible:  VVVVV
+Possible:  WWWWW
+Possible:  XXXXX
+Possible:  YYYYY
+Possible:  ZZZZZ
+Known wrong letters:     EINOS
+Known misplaced letters: 
+Known correct letters:   _____
+Guess a word: lumpy
+Guess:     LUMPY
+Correct:   _U___
+Misplaced: P
+Wrong:     LMY
+Possible:  AUAAA
+Possible:  B BBB
+Possible:  C CCC
+Possible:  D DDD
+Possible:  F FFF
+Possible:  G GGG
+Possible:  H HHH
+Possible:  J JJJ
+Possible:  K KKK
+Possible:  P PQP
+Possible:  Q QRQ
+Possible:  R RTR
+Possible:  T TUT
+Possible:  U UVU
+Possible:  V VWV
+Possible:  W WXW
+Possible:  X XZX
+Possible:  Z Z Z
+Known wrong letters:     EILMNOSY
+Known misplaced letters: P
+Known correct letters:   _U___
+Guess a word: punny
+Guess:     PUNNY
+Correct:   PU___
+Wrong:     NNY
+Possible:  PUAAA
+Possible:    BBB
+Possible:    CCC
+Possible:    DDD
+Possible:    FFF
+Possible:    GGG
+Possible:    HHH
+Possible:    JJJ
+Possible:    KKK
+Possible:    PQP
+Possible:    QRQ
+Possible:    RTR
+Possible:    TUT
+Possible:    UVU
+Possible:    VWV
+Possible:    WXW
+Possible:    XZX
+Possible:    Z Z
+Known wrong letters:     EILMNOSY
+Known misplaced letters: 
+Known correct letters:   PU___
+Guess a word: pucks
+Guess:     PUCKS
+Correct:   PU___
+Wrong:     CKS
+Possible:  PUAAA
+Possible:    BBB
+Possible:    DDD
+Possible:    FFF
+Possible:    GGG
+Possible:    HHH
+Possible:    JJJ
+Possible:    PQP
+Possible:    QRQ
+Possible:    RTR
+Possible:    TUT
+Possible:    UVU
+Possible:    VWV
+Possible:    WXW
+Possible:    XZX
+Possible:    Z Z
+Known wrong letters:     CEIKLMNOSY
+Known misplaced letters: 
+Known correct letters:   PU___
+Guess a word: putts 
+Guess:     PUTTS
+Correct:   PU___
+Wrong:     STT
+Possible:  PUAAA
+Possible:    BBB
+Possible:    DDD
+Possible:    FFF
+Possible:    GGG
+Possible:    HHH
+Possible:    JJJ
+Possible:    PQP
+Possible:    QRQ
+Possible:    RUR
+Possible:    UVU
+Possible:    VWV
+Possible:    WXW
+Possible:    XZX
+Possible:    Z Z
+Known wrong letters:     CEIKLMNOSTY
+Known misplaced letters: 
+Known correct letters:   PU___
+Guess a word: purge
+Guess:     PURGE
+Correct:   PUR__
+Wrong:     EG
+Possible:  PURAA
+Possible:     BB
+Possible:     DD
+Possible:     FF
+Possible:     HH
+Possible:     JJ
+Possible:     QP
+Possible:     RQ
+Possible:     UR
+Possible:     VU
+Possible:     WV
+Possible:     XW
+Possible:     ZX
+Possible:      Z
+Known wrong letters:     CEGIKLMNOSTY
+Known misplaced letters: 
+Known correct letters:   PUR__
+Guess a word: purvu 
+That's not a word! Enter a real word!
+Guess a word: purda
+Yay! You won in 7 guesses!
+Would you like to play again?alsdf
+Please enter y or n!
+Would you like to play again?n

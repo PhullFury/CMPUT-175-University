@@ -1,10 +1,10 @@
 def mylen(some_list):
     some_list.append(None)
-    len = 1
-    return mylenrecurse(some_list, len) - 1
+    len = 0
+    return mylenrecurse(some_list, len)
 
 def mylenrecurse(some_list, len):
-    if (some_list[len - 1] == None):
+    if (some_list[len] == None):
         return len
     else:
         len += 1
@@ -71,9 +71,6 @@ def binary_search2(key, alist, low, high):
             else:
                 low = guess + 1
             return binary_search2(key, alist, low, high)
-
-def binary_search2recurse(key, alist, low, high, found):
-    pass
 
 def main():
     alist=[43, 76, 97, 86]
